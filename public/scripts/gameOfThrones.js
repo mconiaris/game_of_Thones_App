@@ -5,6 +5,7 @@ console.log('\n---- Chapter 1 ----\n');
 
 // 1. write a function **definition** named `hail` that returns the string:
 //    'Long live King [name]!'
+assert(typeof window.hail === "function", "hail() defined")
 
 // 2. write a function **expression** for the above function named `hailTo`
 //    function expressions are defined at run-time, and only available in the
